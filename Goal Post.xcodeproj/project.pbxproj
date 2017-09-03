@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		395C88591F5CB5E40048BF20 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C88581F5CB5E40048BF20 /* GoalCell.swift */; };
+		395C885B1F5CC64E0048BF20 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C885A1F5CC64E0048BF20 /* GoalType.swift */; };
 		39660FA81F5C3EA100E88D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39660FA71F5C3EA100E88D19 /* AppDelegate.swift */; };
 		39660FAA1F5C3EA100E88D19 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39660FA91F5C3EA100E88D19 /* GoalsVC.swift */; };
 		39660FAD1F5C3EA100E88D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39660FAB1F5C3EA100E88D19 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		395C88581F5CB5E40048BF20 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		395C885A1F5CC64E0048BF20 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		39660FA41F5C3EA100E88D19 /* Goal Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal Post.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39660FA71F5C3EA100E88D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39660FA91F5C3EA100E88D19 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		39660FBE1F5C3EE800E88D19 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
+				395C885A1F5CC64E0048BF20 /* GoalType.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				395C88591F5CB5E40048BF20 /* GoalCell.swift in Sources */,
+				395C885B1F5CC64E0048BF20 /* GoalType.swift in Sources */,
 				39660FAA1F5C3EA100E88D19 /* GoalsVC.swift in Sources */,
 				39660FA81F5C3EA100E88D19 /* AppDelegate.swift in Sources */,
 				39660FB01F5C3EA100E88D19 /* Goal_Post.xcdatamodeld in Sources */,
