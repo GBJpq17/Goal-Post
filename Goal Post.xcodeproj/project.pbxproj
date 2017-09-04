@@ -19,6 +19,7 @@
 		3968DFC61F5DA933003EA7F4 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968DFC51F5DA933003EA7F4 /* UIViewControllerExt.swift */; };
 		3968DFC81F5DAF5B003EA7F4 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968DFC71F5DAF5B003EA7F4 /* UIViewExt.swift */; };
 		3968DFCA1F5DB4C7003EA7F4 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968DFC91F5DB4C7003EA7F4 /* UIButtonExt.swift */; };
+		39719F8D1F5DCF5100B0632A /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39719F8C1F5DCF5100B0632A /* FinishGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3968DFC51F5DA933003EA7F4 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		3968DFC71F5DAF5B003EA7F4 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		3968DFC91F5DB4C7003EA7F4 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		39719F8C1F5DCF5100B0632A /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				39660FA91F5C3EA100E88D19 /* GoalsVC.swift */,
 				3968DFC31F5DA7C3003EA7F4 /* CreateGoalVC.swift */,
+				39719F8C1F5DCF5100B0632A /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				39660FA81F5C3EA100E88D19 /* AppDelegate.swift in Sources */,
 				3968DFC61F5DA933003EA7F4 /* UIViewControllerExt.swift in Sources */,
 				3968DFCA1F5DB4C7003EA7F4 /* UIButtonExt.swift in Sources */,
+				39719F8D1F5DCF5100B0632A /* FinishGoalVC.swift in Sources */,
 				39660FB01F5C3EA100E88D19 /* Goal_Post.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
