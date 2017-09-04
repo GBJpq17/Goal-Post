@@ -15,6 +15,7 @@
 		39660FB01F5C3EA100E88D19 /* Goal_Post.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39660FAE1F5C3EA100E88D19 /* Goal_Post.xcdatamodeld */; };
 		39660FB21F5C3EA100E88D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39660FB11F5C3EA100E88D19 /* Assets.xcassets */; };
 		39660FB51F5C3EA100E88D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39660FB31F5C3EA100E88D19 /* LaunchScreen.storyboard */; };
+		3968DFC41F5DA7C3003EA7F4 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968DFC31F5DA7C3003EA7F4 /* CreateGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		39660FB11F5C3EA100E88D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39660FB41F5C3EA100E88D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39660FB61F5C3EA100E88D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3968DFC31F5DA7C3003EA7F4 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				39660FA91F5C3EA100E88D19 /* GoalsVC.swift */,
+				3968DFC31F5DA7C3003EA7F4 /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				395C88591F5CB5E40048BF20 /* GoalCell.swift in Sources */,
+				3968DFC41F5DA7C3003EA7F4 /* CreateGoalVC.swift in Sources */,
 				395C885B1F5CC64E0048BF20 /* GoalType.swift in Sources */,
 				39660FAA1F5C3EA100E88D19 /* GoalsVC.swift in Sources */,
 				39660FA81F5C3EA100E88D19 /* AppDelegate.swift in Sources */,
